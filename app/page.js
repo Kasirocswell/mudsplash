@@ -18,7 +18,7 @@ const founders = [
     github: "https://github.com/Kasirocswell",
   },
 ];
-
+//handle click function
 const handleClick = () => {
   window.location.href = "https://cdmud.vercel.app/";
 };
