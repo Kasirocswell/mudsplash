@@ -19,6 +19,10 @@ const founders = [
   },
 ];
 
+const handleClick = () => {
+  window.location.href = "https://cdmud.vercel.app/";
+};
+
 export default function Home() {
   return (
     <main className="flex flex-col">
@@ -27,6 +31,7 @@ export default function Home() {
         style={{ backgroundImage: "url(/cdbg.jpg)" }}
       >
         <button
+          onClick={handleClick}
           className={`w-[75px] h-[50px] bg-[#a212b5] rounded-xl ml-[75%] mt-2 2xl:ml-[90%] 2xl:mt8 ${julius.className}`}
         >
           LOGIN
